@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Admission Form</title>
+    <link rel="icon" href="./pictures/saylani-academy-favicon.png">
+</head>
+
+<body>
+    <center>
+        <img src="./pictures/saylani-academy.png" alt="Saylani-academy-image" title="Saylani Academy Image" width="500"
+            height="140">
+        <h1>Saylani Online Academy</h1>
+        <form action="submit-form.html" class="form" autocomplete="on">
+            <fieldset style="width: 600px; background-color: rgb(211, 211, 211); font-weight: bolder;">
+                <table cellpadding="10">
+                    <thead>
+                        <tr>
+                            <td colspan="5">
+                                <h2 style="text-align: center;">Student Registration Form</h2>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><label for="name">Name:</label></td>
+                            <td></td>
+                            <td><input placeholder="Name" type="text" id="name" required maxlength="30" minlength="3"
+                                    size="32">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label for="father-name">Father Name:</label></td>
+                            <td></td>
+                            <td><input placeholder="Father Name" type="text" id="father-name" required maxlength="30"
+                                    minlength="3" size="32"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label for="password">Password:</label></td>
+                            <td></td>
+                            <td><input placeholder="***********" type="password" id="password" required size="32"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label for="address">Address:</label></td>
+                            <td></td>
+                            <td><textarea name="address" id="address" cols="32" rows="5"
+                                    placeholder="Address"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label>Gender:</label></td>
+                            <td></td>
+                            <td>
+                                <input type="radio" value="male" name="gender" id="male" />
+                                <label for="male">Male</label>
+                                <input type="radio" value="female" name="gender" id="female" />
+                                <label for="female">Female</label>
+                                <input type="radio" value="other" name="gender" id="other" />
+                                <label for="other">Other</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label>Language:</label></td>
+                            <td></td>
+                            <td>
+                                <input type="checkbox" name="language" value="Urdu" id="Urdu">
+                                <label for="Urdu">Urdu</label>
+                                <input type="checkbox" name="language" value="English" id="English">
+                                <label for="English">English</label>
+                                <input type="checkbox" name="language" value="Arabic" id="Arabic">
+                                <label for="Arabic">Arabic</label>
+                                <input type="checkbox" name="language" value="chinese" id="Chinese">
+                                <label for="Chinese">Chinese</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label for="date-of-birth">DOB:</label></td>
+                            <td></td>
+                            <td><input type="date" id="date-of-birth" size="25" required></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label for="email-id">Email ID:</label></td>
+                            <td></td>
+                            <td><input type="email" id="email-id" placeholder="Email ID" required></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label for="mobile-number">Mobile Number:</label></td>
+                            <td></td>
+                            <td><input type="number" id="mobile-number" required placeholder="Phone Number"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label for="city">City:</label></td>
+                            <td></td>
+                            <td>
+                                <select name="city" id="city">
+                                    <option value="">Select An Option</option>
+                                    <option value="Hyderabad">Hyderabad</option>
+                                    <option value="Karachi">Karachi</option>
+                                    <option value="Larkana">Larkana</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <label for="hobbies">Hobbies:</label></td>
+                            <td></td>
+                            <td>
+                                <select name="hobbies" id="hobbies" size="4">
+                                    <option value="Cricket">Cricket</option>
+                                    <option value="Football">Football</option>
+                                    <option value="Hockey">Hockey</option>
+                                    <option value="Tennis">Tennis</option>
+                                    <option value="">Other Sports</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label for="Upload-Picture">Picture Upload:</label></td>
+                            <td></td>
+                            <td><input type="file" id="Upload-Picture" accept=".png, .jpg, .jpeg" required></td>
+                            <td><button>Upload</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" align="center"><input type="submit"> <input type="reset"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Mohsin Siddique</title>
+    <link rel="icon" href="./pictures/github-favicon.png">
+    <style>
+        .nav-bar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 18px;
+            list-style: none;
+            gap: 30PX;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: #E6E9ED;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin: 10px;
+            color: black;
+        }
+        #navigation {
+            text-decoration: none;
+            border: none;
+            font-weight: bolder;
+            padding-right: 10px;
+            color: black;
+        }
+
+        #navigation:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav  class="nav-bar">
+            <div>
+                <ul class="nav-bar" id="navigation">
+                    <li><a href="resume.html" id="navigation">Home Page</a></li>
+                    <li><a href="form-assignment.html" target="iframe-a"  id="navigation">Student Form Project</a></li>
+                    <li><a href="periodic-table.html" target="_blank" id="navigation" onclick="">Periodic Table</a></li>
+                    <li><a href="youTube-clone.html" target="_blank" id="navigation">YouTube Clone</a></li>
+                    <li><a href="#education" id="navigation">Learn HTML</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <center><iframe src="./form-assignment.html" name="iframe-a" frameborder="5" title="Student Registration Form"
+            width="800" height="500"></iframe></center>
+    </div> 
+</body>
+
+</html>
