@@ -1,0 +1,25 @@
+.empty-col{
+    border: 0;
+}
+.priodic-table {
+    text-align: center;
+    width: 60%;
+    height: auto;
+    margin-left:250px;
+    margin-top: 40px;
+}
+.bgcolor{
+    background-color: rgba(194, 68, 68, 0.616);
+}
+.bgcolor-2{
+    background-color: rgba(24, 95, 176, 0.546);
+}
+.bgcolor-3{
+    background-color: rgba(255, 255, 13, 0.525);
+}
+.bgcolor-4{
+    background-color: rgba(55, 255, 0, 0.573);
+} 
+table tr td{
+    border: 2px solid black;
+}
